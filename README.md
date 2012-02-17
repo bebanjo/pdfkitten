@@ -1,6 +1,6 @@
-# PDFkitten
+# PDF Kitten
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/eiHXASgRTcA" frameborder="0" allowfullscreen></iframe>
+![Kitten!](http://gifs.gifbin.com/032010/1270047760_kitten.gif)
 
 ## Installation
 
