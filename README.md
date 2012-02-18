@@ -1,8 +1,12 @@
 # PDF Kitten
 
+Simple Rack EndPoint which converts posted HTML to PDF using [PDFKit](https://github.com/jdpace/PDFKit)
+
 ![Kitten!](http://gifs.gifbin.com/032010/1270047760_kitten.gif)
 
 ## Installation
+
+You'll need `wkhtmltopdf` already installed in your system ([see how install it](https://github.com/jdpace/PDFKit/wiki/Installing-WKHTMLTOPDF))
 
 Add this line to your application's Gemfile:
 
