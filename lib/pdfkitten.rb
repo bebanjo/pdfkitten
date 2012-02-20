@@ -4,8 +4,10 @@ require "pdfkit"
 
 class PDFKitten < Sinatra::Base
   post "/" do
-    attachment params[:name]
+    name = params.delete('name')
+    html = params.delete('html')
+    attachment name
     content_type 'application/pdf'
-    PDFKit.new(params[:html]).to_pdf
+    PDFKit.new(html, params).to_pdf
   end
 end
